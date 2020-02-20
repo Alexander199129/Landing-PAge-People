@@ -96,14 +96,18 @@ a{
     margin: auto;
     text-align: center;
     width: 750px;
+    margin-bottom:280px;
 }
 .pictures{
-    padding-top: 200px;
+    
     display: flex;
     justify-content: space-around;
 }
+.images{
+    margin-bottom:10px;
+}
 .features{
-    padding-top:30px;
+    
     display: flex;
     justify-content: space-around;       
 }
