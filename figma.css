@@ -1,6 +1,7 @@
 p,h1{ 
     margin:0;
 }
+
 .header{   
     background: url(pictures/Rec.jpg) no-repeat center / cover; 
     height: 740px;
@@ -12,7 +13,8 @@ p,h1{
 }
 body{
     background: grey;
-    font-family: Roboto;   
+    font-family: Roboto;
+    margin:0;   
 }
 a{
   color: white;    
@@ -45,13 +47,15 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 170px;
 }
 .cont{
-    padding-top: 150px;
+    /* padding-top: 150px; */
     font-style: normal;
     font-size: 35px;
     
     font-weight: 500;
+    border: 1px solid red;
         
 }
 .cont2{
@@ -70,21 +74,23 @@ a{
     border: none;
     color: white;
 }
+.triangle{
+    padding-right:3px;
+}
 .main {
     background-color: white;
-    height: 1000;
-    
+    padding: 100px;    
     margin: 30px;
     margin-top:-60px;
     border-radius: 5px;  
 }
 .name{
-    padding-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
     font-style: normal;
-    margin-bottom: 50px;
+    
 }
 .content{    
     margin: auto;
@@ -170,8 +176,8 @@ a{
     margin: 0 15px;
 }
 .contact-form{
-    padding-right: 280px;
-    padding-left: 280px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-family: Roboto;
 }
 .name3{
@@ -188,7 +194,10 @@ a{
 .sign{
     display:flex;
     justify-content: space-around; 
-    margin-top:50px;   
+    margin-top:50px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 .TEXT{
@@ -204,8 +213,6 @@ a{
     border-top:none;
     border-right:none;
     border-left:none;
-    
-
 }
 .dig2{
     width:100%;
@@ -214,23 +221,26 @@ a{
     border-left:none;
 }
 .sign2{
-    
-    margin-top: 50px; 
+    max-width: 750px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto; 
      
 }
 .sign2-2{
-    width:100%;
+    height: 92px;
     resize: none;
-    padding-bottom: 50px;
     border-top:none;
     border-right:none;
     border-left:none;
+    width: 100%;
 }
 .send-message{
     display: flex;
     justify-content: center;
     
 }
+
 .bor{
     border-top:none;
     border-right:none;
@@ -251,7 +261,8 @@ a{
     color:white;
     margin-top: 50px;
     margin-bottom: 150px;
-    border:none; 
+    border:none;
+    cursor: pointer; 
        
 }
 .bottom{
