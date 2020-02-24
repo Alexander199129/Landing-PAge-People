@@ -50,16 +50,15 @@ a{
     margin-bottom: 170px;
 }
 .cont{
-    /* padding-top: 150px; */
     font-style: normal;
-    font-size: 35px;
-    
+    font-size: 35px;    
     font-weight: 500;
-    border: 1px solid red;
-        
+    font-family: Roboto;        
 }
 .cont2{
     margin-bottom: 50px;
+    font-family: Roboto;
+    font-weight: normal;
 }
 .Rec2{
     height: 50px;
@@ -89,25 +88,22 @@ a{
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
-    font-style: normal;
-    
+    font-style: normal;    
 }
 .content{    
     margin: auto;
     text-align: center;
-    width: 750px;
+    width: auto;
     margin-bottom:280px;
 }
 .pictures{
-    
     display: flex;
     justify-content: space-around;
 }
 .images{
     margin-bottom:10px;
 }
-.features{
-    
+.features{    
     display: flex;
     justify-content: space-around;       
 }
@@ -115,12 +111,12 @@ a{
     padding-top:30px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 250px;;
 }
 .text{
     text-align: center;
 }
-.name2{
-    padding-top: 250px;
+.name2{    
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
@@ -131,8 +127,8 @@ a{
     padding-top: 50px;
     display: flex;
     justify-content: space-around;
-
 }
+
 .name-surname{
     display: flex;
     justify-content: space-around;
@@ -156,7 +152,8 @@ a{
 }
 .icons-int{
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
+    margin-bottom:250px;   
 }
 .icons{
     margin-top: 50px;
@@ -184,8 +181,7 @@ a{
     padding-left: 20px;
     font-family: Roboto;
 }
-.name3{
-    padding-top: 250px;
+.name3{    
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
@@ -194,14 +190,15 @@ a{
 }
 .content2{
     text-align: center;
+    margin-bottom: 50px;;
 }
 .sign{
     display:flex;
-    justify-content: space-around; 
-    margin-top:50px;
+    justify-content: space-around;     
     max-width: 750px;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
+    margin-bottom: 50px;;   
 }
 
 .TEXT{
@@ -225,11 +222,10 @@ a{
     border-left:none;
 }
 .sign2{
-    max-width: 750px;
-    margin-top: 50px;
+    max-width: 750px;    
     margin-right: auto;
-    margin-left: auto; 
-     
+    margin-left: auto;
+    margin-bottom: 100px;      
 }
 .sign2-2{
     height: 92px;
@@ -237,12 +233,11 @@ a{
     border-top:none;
     border-right:none;
     border-left:none;
-    width: 100%;
+    width: 100%;    
 }
 .send-message{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .bor{
@@ -263,19 +258,15 @@ a{
     align-items: center;
     border-radius: 5px;
     color:white;
-    margin-top: 50px;
-    margin-bottom: 150px;
     border:none;
-    cursor: pointer; 
-       
+    cursor: pointer;       
 }
 .bottom{
     display: flex;
     justify-content: space-between;
     padding-right:100px;
     padding-left: 100px;
-    padding-bottom: 25px;
-
+    margin-bottom: 25px;
 }
 .bottom-words{
     display: flex;
@@ -286,4 +277,46 @@ a{
 }
 .corp{
     padding-right: 100px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .pictures2 {        
+        flex-direction: column;
+        align-items: center;       
+    }
+    .flex{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: center;  
+    }
+}
+@media screen and (max-width: 800px){
+    .cont{
+        font-size: 20px;              
+    }
+    .cont2{
+        font-size: 10px; 
+    }
+}
+@media screen and (max-width: 700px){
+    .sign{
+        flex-direction: column;
+        align-items: center;
+                
+    }
+    .sign2{
+        text-align: center;
+    }
+    .bottom{
+        display: flex; 
+        justify-content: space-between;
+        padding-right:10px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+    
 }
