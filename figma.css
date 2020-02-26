@@ -410,7 +410,9 @@ a{
     padding-top: 40px;    
     margin: 30px;
     margin-top:-60px;
-    border-radius: 5px;  
+    border-radius: 5px;
+    padding-top: 100px;
+    padding-bottom: 100px;  
 }
 .name{
     margin-bottom: 100px;
@@ -453,39 +455,21 @@ a{
 }
 .pictures2{
     padding-top: 50px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
+.all-logos{
+    margin-top: 30px;
 
+}
 .name-surname{
     display: flex;
     justify-content: space-around;
     margin-top: 0;
 }
-.name-surname h3{
-    margin-left: 30px;
-}
-.proffession{
-    display: flex;
-    justify-content: space-around;
-}
-.proffession h4{
-    margin: 0px;
-}
-.detail-text{
-    display: flex;
-    justify-content: space-around;
-    text-align:center;
-    margin-top:20px;
-}
-.icons-int{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom:250px;   
-}
-.icons{
-    margin-top: 50px;
-}
+
 .twit2{
     margin: 0 15px;
 }
@@ -516,9 +500,10 @@ a{
     font-style: normal;
     margin-bottom: 50px;
 }
-.content2{
+.content2{    
+    margin-bottom: 50px;
+    
     text-align: center;
-    margin-bottom: 50px;;
 }
 .sign{
     display:flex;
@@ -553,7 +538,7 @@ a{
     max-width: 750px;    
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 100px;      
+    margin-bottom: 34px;      
 }
 .sign2-2{
     height: 92px;
