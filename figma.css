@@ -685,11 +685,7 @@ a{
         align-items: center;                
     }  
 
-    .bottom {
-        display: flex; 
-        justify-content: space-between;
-        padding-right:10px;
-        padding-left: 10px;
+    .bottom {        
         margin-bottom: 5px;
     } 
 
