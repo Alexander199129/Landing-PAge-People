@@ -515,13 +515,12 @@ a{
 }
 
 .TEXT{
-    width:48%;
+    width:100%;
 
 }
 .TEXT:first-child{
     margin-right: 4%;
 }
-
 .dig1{
     width: 100%;
     border-top:none;
@@ -592,8 +591,7 @@ a{
     padding-right: 100px;
 }
 
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 748px){
     .pictures2 {        
         flex-direction: column;
         align-items: center;       
@@ -621,9 +619,7 @@ a{
         flex-direction: column;
         align-items: center;                
     }
-    .sign2{
-        text-align: center;
-    }
+    
     .bottom{
         display: flex; 
         justify-content: space-between;
@@ -639,5 +635,60 @@ a{
         font-size: 20px;
         
     }
+   
+}
+
+@media screen and (max-width: 500px){
+    .flex{
+        margin-left:50px;
+    }
+    .pictures2 {        
+        flex-direction: column;
+        align-items: center;       
+    }
+    .flex{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: center;  
+    }
+    .cont{
+        font-size: 30px;
+        width:465px;                      
+    }
+    .cont2{
+        font-size: 13px;        
+        width: 421px;         
+    }
+    .header{
+        padding-left: 22px;
+    }
+    .sign{
+        flex-direction: column;
+        align-items: center;                
+    }
     
+    .bottom{
+        display: flex; 
+        justify-content: space-between;
+        padding-right:10px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+   
+    .pictures-features-text{
+        flex-direction: column;             
+    }
+    .pic-feat-txt{
+        margin-bottom: 70px;
+    }
+    .content{    
+        font-size: 20px;
+        
+    }
+    .TEXT:first-child{
+        margin-right: 0;
+    }
 }
