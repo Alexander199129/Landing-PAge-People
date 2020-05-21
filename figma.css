@@ -401,6 +401,7 @@ a{
     border-radius: 5px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .triangle{
     padding-right:3px;
@@ -718,3 +719,4 @@ a{
         padding-right: 0;
     }
 }
+
