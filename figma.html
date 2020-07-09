@@ -7,33 +7,43 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.hamburger').click(function(){
+                $('.hamburger,.flex').toggleClass('active')
+            });
+        });
+    </script>
 </head>
 <body>    
-    <header class="header">        
-        <div class="flex">
-            <div class="left">Creative Tim</div>
-            <div class="right">
-                <a class="space" href="Componenets">COMPONENTS</a>
-                <img class="down" src="pictures/down.png">
-                <a class="space2" href="download">DOWNLOAD</a>
-                <img class="twit" src="pictures/twit.png">
-                <img class="fac" src="pictures/fac.png">
-                <img class="inst"src="pictures/inst.png">
+    <header class="header">
+        <div class = "hamburger">
+            <span></span>        
+            <div class="flex">
+                <div class="left">Creative Tim</div>
+                <div class="right">
+                    <a class="space" href="Componenets">COMPONENTS</a>
+                    <img class="down" src="pictures/down.png">
+                    <a class="space2" href="download">DOWNLOAD</a>
+                    <img class="twit" src="pictures/twit.png">
+                    <img class="fac" src="pictures/fac.png">
+                    <img class="inst"src="pictures/inst.png">
+                </div>
             </div>
         </div>
-        <div class="cont">
-            <h1>
-                Write the best title for your page
-            </h1>
-        </div>
-        <div class="cont2">
-            <h2>Every landing page needs a small description after the big bold title, 
-                that's why we added this text here. Add here all the information that 
-                can make you or your product create the first impression.fgfgfg</h2>
-        </div> 
-        <button class="Rec2">
-            <img class="triangle" src="pictures/triangle.png">WATCH VIDEO
-        </button>       
+            <div class="cont">
+                <h1>
+                    Write the best title for your page
+                </h1>
+            </div>
+            <div class="cont2">
+                <h2>Every landing page needs a small description after the big bold title, 
+                    that's why we added this text here. Add here all the information that 
+                    can make you or your product create the first impression.fgfgfg</h2>
+            </div> 
+            <button class="Rec2">
+                <img class="triangle" src="pictures/triangle.png">WATCH VIDEO
+            </button>       
     </header>
     <div class="main">
         <div class="name">Let’s talk product</div>
