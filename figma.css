@@ -323,7 +323,7 @@ a{
     }   
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 600px){
     .pictures2 {        
         flex-direction: column;
         align-items: center;       
